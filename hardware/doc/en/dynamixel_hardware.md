@@ -1,8 +1,6 @@
 # Dynamixel hardware
 
-The Poppy Humanoid robot is built with the MX-28AT Dynamixel servomotor, the MX-64AT that are larger and stronger, and the AX-12AT smaller and used for the head.
-
-Each Dynamixel servomotor embeds an electronic board allowing it to
+The Poppy Humanoid robot is built with the MX-28AT Dynamixel servomotor, the MX-64AT that are larger and stronger, and the AX-12AT smaller and used for the head. Each Dynamixel servomotor embeds an electronic board allowing it to
 receive different kind of orders (about goal, torque...) and communicate
 with other Dynamixel servos. Therefore, you can chain up several
 Dynamixel servomotors (each with a different ID) and command them all
