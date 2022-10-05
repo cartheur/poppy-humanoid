@@ -12,7 +12,7 @@
 
 
 
-**Reminder**: be careful with orientation while mounting [Dynamixel horns](dynamixel_hardware.md)
+**Reminder**: Be careful with orientation while mounting [Dynamixel horns](dynamixel_hardware.md).
 
 
 <hr />
