@@ -1,9 +1,6 @@
 # Dynamixel hardware
 
-The Poppy Humanoid robot is mainly built with [MX-28AT and MX-64AT Dynamixel
-servomotors](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/).
-The other servomotors are MX-64T (bigger and stronger) and AX-12A
-(smaller, used for the head).
+The Poppy Humanoid robot is built with the MX-28AT Dynamixel servomotor, the MX-64AT that are larger and stronger, and the AX-12AT smaller and used for the head.
 
 Each Dynamixel servomotor embeds an electronic board allowing it to
 receive different kind of orders (about goal, torque...) and communicate
@@ -11,6 +8,9 @@ with other Dynamixel servos. Therefore, you can chain up several
 Dynamixel servomotors (each with a different ID) and command them all
 from one end of the chain: each servomotor will pass the orders to the
 next one.
+
+Setting-up the first motors - beginning with the ankles to the knees to the hips - is done through the [Dynamixel
+wizard](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/).
 
 ![image](../img/daisy_link.JPG)
 
@@ -60,7 +60,7 @@ it. The horn should turn freely.
 
 Free horn mounted on a MX-64
 
-Quick reminder of horn names and screw sizes:
+A table of horn names and corresponding screw sizes:
 
 
 | Servomotor | main horn | free horn | big horn screw | horn screws | case screws|
@@ -70,7 +70,7 @@ Quick reminder of horn names and screw sizes:
 |  MX64    |  HN05-N102  | HN05-I101  |     M3x8mm  |        M2.5x4mm   |    M2.5x6mm |
 
 
-You need an allen wrench of size 1.5mm for M2 screws, 2mm for M2.5 screws
+You will need an allen wrench of size 1.5mm for M2 screws, 2mm for M2.5 screws
 and 2.5mm for M3 screws. The longer M2 screws need a Phillips screwdriver.
 
 ## Putting the nuts
