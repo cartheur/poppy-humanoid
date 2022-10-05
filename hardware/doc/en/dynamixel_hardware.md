@@ -1,8 +1,7 @@
 # Dynamixel hardware
 
 The Poppy Humanoid robot is mainly built with [MX-28AT Dynamixel
-servomotors](http://www.generationrobots.com/en/401858-servomotor-dynamixel-mx-28at.html)
-(MX-28T are the previous version and can be used without any problem).
+servomotors](http://www.generationrobots.com/en/401858-servomotor-dynamixel-mx-28at.html).
 The other servomotors are MX-64T (bigger and stronger) and AX-12A
 (smaller, used for the head).
 
